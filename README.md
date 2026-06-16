@@ -1,18 +1,50 @@
 # 🥭 Frutimonchis Backend
 
-Sistema Backend para la gestión de inventario, compras, ventas, clientes y proveedores desarrollado con Spring Boot y PostgreSQL.
+Sistema Backend desarrollado con **Spring Boot** y **PostgreSQL** para la gestión de inventario, productos, compras, ventas, clientes y proveedores mediante una API REST.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 📖 Descripción
 
-- Java 21
-- Spring Boot 3
-- Spring Data JPA
-- Hibernate
-- PostgreSQL
-- Maven
-- Swagger / OpenAPI
+Frutimonchis Backend es una aplicación orientada a la administración de procesos comerciales e inventario. Implementa una arquitectura multicapa basada en Spring Boot y expone una API REST que permite gestionar productos, clientes, proveedores, compras, ventas y movimientos de inventario con persistencia en PostgreSQL.
+
+---
+
+## ✨ Características principales
+
+* API REST desarrollada con Spring Boot.
+* Persistencia de datos en PostgreSQL mediante Spring Data JPA.
+* Arquitectura multicapa (Controller, Service, Repository, Entity y DTO).
+* Documentación y pruebas de endpoints mediante Swagger/OpenAPI.
+* Gestión de inventario, compras y ventas.
+* Administración de clientes y proveedores.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Java 21
+* Spring Boot 3
+* Spring Data JPA
+* Hibernate
+* PostgreSQL
+* Maven
+* Swagger / OpenAPI
+
+---
+
+## 🏗️ Arquitectura
+
+```text
+src/main/java
+│
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+└── config
+```
 
 ---
 
@@ -20,72 +52,57 @@ Sistema Backend para la gestión de inventario, compras, ventas, clientes y prov
 
 ### Gestión de Productos
 
-- Crear productos
-- Consultar productos
-- Actualizar productos
-- Eliminar productos
-- Gestión de categorías
+* Crear productos
+* Consultar productos
+* Actualizar productos
+* Eliminar productos
+* Gestión de categorías
 
 ### Gestión de Clientes
 
-- Registro de clientes
-- Consulta de clientes
-- Actualización de clientes
-- Eliminación de clientes
+* Registrar clientes
+* Consultar clientes
+* Actualizar clientes
+* Eliminar clientes
 
 ### Gestión de Proveedores
 
-- Registro de proveedores
-- Control de pagos
-- Gestión de cuentas por pagar
+* Registrar proveedores
+* Administrar cuentas por pagar
 
 ### Gestión de Compras
 
-- Registro de compras
-- Detalle de compras
-- Estados de compra
+* Registrar compras
+* Gestionar detalles de compra
+* Controlar estados de compra
 
 ### Gestión de Ventas
 
-- Registro de ventas
-- Detalle de ventas
-- Facturación
+* Registrar ventas
+* Gestionar detalles de venta
+* Soportar procesos de facturación
 
 ### Inventario
 
-- Control de stock
-- Movimientos de inventario
-- Historial de movimientos
+* Control de stock
+* Movimientos de inventario
+* Historial de operaciones
 
 ---
 
-## 🏗 Arquitectura
+## 🗄️ Base de datos
 
-El proyecto utiliza arquitectura multicapa:
+Principales entidades del sistema:
 
-```text
-Controller
-Service
-Repository
-Entity
-DTO
-```
-
----
-
-## 🗄 Base de Datos
-
-Tablas principales:
-
-- categorias
-- productos
-- clientes
-- proveedores
-- compras
-- compra_detalles
-- ventas
-- venta_detalles
-- movimientos_inventario
+* categorias
+* productos
+* clientes
+* proveedores
+* compras
+* compra_detalles
+* ventas
+* venta_detalles
+* movimientos_inventario
 
 ---
 
@@ -95,48 +112,70 @@ Tablas principales:
 
 ![Swagger](screenshots/swagger-home.png)
 
-### API Productos
+### Productos
 
 ![Productos](screenshots/swagger-productos.png)
 
-### API Compras
+### Compras
 
 ![Compras](screenshots/swagger-compras.png)
 
-### API Ventas
+### Ventas
 
 ![Ventas](screenshots/swagger-ventas.png)
 
-### PostgreSQL
+### Base de datos PostgreSQL
 
 ![Database](screenshots/database.png)
 
 ---
 
-## ▶️ Ejecución
+## 🚀 Instalación
 
-### Clonar proyecto
+### Requisitos previos
+
+* Java 21
+* Maven
+* PostgreSQL
+
+### Clonar el proyecto
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/Ing-MairaAlejandraRangel/frutimonchis-backend.git
 ```
 
-### Ejecutar
+### Ejecutar la aplicación
 
 ```bash
 mvn spring-boot:run
 ```
 
-### Swagger
+---
 
-```text
-http://localhost:8090/swagger-ui
-```
+## 📚 Documentación de la API
+
+Una vez iniciada la aplicación, la documentación puede consultarse desde Swagger/OpenAPI en la ruta configurada por el proyecto (por ejemplo `http://localhost:8090/swagger-ui/index.html`).
 
 ---
 
-## 👩‍💻 Autor
+## ✅ Estado del proyecto
 
-Maira Alejandra Rangel Murillo
+Proyecto funcional y desarrollado con fines académicos y de portafolio profesional.
 
+Incluye:
+
+* ✔ API REST
+* ✔ Persistencia en PostgreSQL
+* ✔ Gestión de inventario
+* ✔ Gestión de compras y ventas
+* ✔ Administración de clientes y proveedores
+* ✔ Documentación con Swagger
+
+---
+
+## 👩‍💻 Autora
+
+**Maira Alejandra Rangel Murillo**
 Ingeniera de Sistemas
+
+Proyecto desarrollado con fines académicos y como parte de un portafolio profesional orientado al desarrollo Backend con Java y Spring Boot.
