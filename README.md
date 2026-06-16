@@ -173,9 +173,22 @@ Incluye:
 
 ---
 
-## 👩‍💻 Autora
+# 👩‍💻 Autora
 
 **Maira Alejandra Rangel Murillo**
-Ingeniera de Sistemas
+**Ingeniera de Sistemas**
 
-Proyecto desarrollado con fines académicos y como parte de un portafolio profesional orientado al desarrollo Backend con Java y Spring Boot.
+Apasionada por el desarrollo de software y la creación de soluciones tecnológicas orientadas a la automatización, la gestión de datos y el desarrollo de aplicaciones web y móviles.
+
+**Áreas de interés:**
+
+* 💻 Desarrollo Full Stack
+* ☕ Desarrollo Backend con Java y Spring Boot
+* 🌐 Desarrollo Web con JavaScript y Node.js
+* 📱 Desarrollo de aplicaciones Android
+* 🗄️ Bases de Datos SQL (PostgreSQL y MySQL)
+* 🔗 Diseño e implementación de APIs REST
+* 🧪 Aseguramiento de la calidad (QA) y pruebas de software
+
+Este proyecto fue desarrollado con fines académicos y forma parte de mi portafolio profesional como Ingeniera de Sistemas.
+
